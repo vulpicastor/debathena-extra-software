@@ -1,3 +1,9 @@
+debathena-extra-software (1.7) unstable; urgency=low
+
+  * Depend xmobar (Trac: #1394)
+
+ -- Jonathan Reed <jdreed@mit.edu>  Mon, 28 Jul 2014 14:55:41 -0400
+
 debathena-extra-software (1.6) unstable; urgency=low
 
   [ Jonathan Reed ]
