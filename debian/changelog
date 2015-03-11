@@ -1,3 +1,11 @@
+debathena-extra-software (1.8) unstable; urgency=low
+
+  * Add compiz-plugins.  Drop compizconfig-settings-manager to
+    a recommends, since neither compiz package is in wheezy or
+    jessie.
+
+ -- Benjamin Kaduk <kaduk@mit.edu>  Wed, 11 Mar 2015 13:22:17 -0400
+
 debathena-extra-software (1.7) unstable; urgency=low
 
   * Depend xmobar (Trac: #1394)
