@@ -1,3 +1,12 @@
+debathena-extra-software (1.9) unstable; urgency=medium
+
+  * Remove chromium-config from the dependencies.  It has different name on
+    some distributions and is properly handled via chromium-config (pulled in
+    via login-graphical).
+  * Update icedtea-plugin dependency.
+
+ -- Victor Vasiliev <vasilvv@mit.edu>  Sun, 03 May 2015 16:57:19 -0400
+
 debathena-extra-software (1.8) unstable; urgency=low
 
   * Add compiz-plugins.  Drop compizconfig-settings-manager to
