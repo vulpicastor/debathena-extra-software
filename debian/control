@@ -26,6 +26,7 @@ Depends: debathena-extra-software-nox,
   xmonad, suckless-tools | dwm-tools, xmobar,
   git-gui, gitk,
   icedtea-7-plugin | icedtea6-plugin,
+  gstreamer1.0-libav | gstreamer0.10-ffmpeg,
   ${misc:Depends}
 Recommends: flashplugin-installer | flashplugin-nonfree,
   mplayer,
@@ -35,7 +36,8 @@ Recommends: flashplugin-installer | flashplugin-nonfree,
   ttf-xfree86-nonfree,
   poppler-data,
   motif-clients,
-  wmbubble, wmfire
+  wmbubble, wmfire,
+  gstreamer1.0-vaapi | gstreamer0.10-vaapi
 Description: Athena auxiliary software
  This package pulls in miscellaneous non-Athena-specific software
  for a fully-stocked Athena workstation.

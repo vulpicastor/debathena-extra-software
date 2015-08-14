@@ -1,3 +1,14 @@
+debathena-extra-software (1.10) unstable; urgency=low
+
+  * Add gstreamer1.0-libav (gstreamer0.10-ffmpeg for precise) to the
+    dependencies. This allows H.264 HTML5 playback in recent versions of
+    Firefox. (Trac: #1566)
+  * Add gstreamer1.0-vaapi (gstreamer0.10-vaapi for precise) to recommends
+    for optional hardware accelearted H.264 playback. Additional VAAPI drivers
+    may be needed.
+
+ -- Lizhou Sha <slz@mit.edu>  Thu, 13 Aug 2015 22:23:20 -0400
+
 debathena-extra-software (1.9) unstable; urgency=medium
 
   * Remove chromium-config from the dependencies.  It has different name on
